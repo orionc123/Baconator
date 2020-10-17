@@ -7,4 +7,4 @@ This project is compiled & run through the Driver class. It functions on the ori
 
 
 ## Note: Known Bug
-I'm currently unable to find a solution to to my java.lang.OutOfMemoryError when reading the entire database. I'm not sure how to significantly cut down on the runtime & memory footprint without deviating from the HashMap idea in order to find adjacent vertices (input data as 1 actor + collection of movies vs. 1 movie & collection of actors). I've used only the first 500k entries in each file to make the program functional. I'd love some input on how to resolve this issue.
+I'm currently unable to find a solution to to my java.lang.OutOfMemoryError when reading the entire database. I'm not sure how to significantly cut down on the runtime & memory footprint without deviating from the HashMap implementation in order to find adjacent vertices (input data as 1 actor + collection of movies vs. 1 movie & collection of actors). I've used only the first 500k entries in each file to make the program functional. I'd appreciate some input on how to resolve this issue.
